@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>sax</artifactId>
-    <version>0.6.1-SNAPSHOT</version>
+    <version>0.5.8</version>
     <name>sax</name>
     <description>WebJar for sax</description>
     <url>http://webjars.org</url>
@@ -40,7 +40,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>0.6.0</upstreamVersion>
+        <upstreamVersion>0.5.8</upstreamVersion>
         <upstream.url>https://github.com/isaacs/sax-js</upstream.url>
         <extractDir>${project.build.directory}/sax-js-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
